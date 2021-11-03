@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#work{
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 20%;
+    margin: 16% auto;
+    padding: 8px;
+}
+h2{
+    color: white;
+    margin: auto 5%;
+}
+input[type="text"], input[type="password"]{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    margin: 8px;
+    width: 90%;
+    margin: auto; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+input[type="submit"]{
+    background: none;
+    border: none;
+    color: white;
+    outline: 1px solid rgb(255, 255, 255);
+    padding: 4px;
+    width: 22%;
+    border-radius: 4px;
+    margin-left: 40%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: rgb(165, 163, 163);
+}
